@@ -98,6 +98,8 @@ html {
 body {
   background: var(--rich-black-fogra-39);
   min-width: 280px;
+
+  
 }
 
 button, a, input, [tabindex] { outline-offset: 4px; }
@@ -1129,18 +1131,21 @@ header .container {
 
   .footer-top .logo,
   .footer-brand-text { 
+    overflow: hidden;
    
-  
   }
 
-  .footer-brand-text{
+  .footer-text{
     display: flex;
     text-align: center;
     align-items: center;
     position: relative;
     color: var(--white);
     font-size: var(--fs-7);
-    margin-bottom: 20px;
+ 
+
+    padding: 10px;
+   
    
   }
 
@@ -1291,8 +1296,36 @@ header .container {
 display: flex;
 align-items: center;
 justify-content: center;
-background: none;
-
-
+border: 3px solid var(--golden-puppy);
+width: 100%;
+height:100%;
 
 }
+
+#Heinrich-Photo2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid var(--white);
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  
+  }
+  #Heinrich-Photo3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   border: 3px solid var(--golden-puppy);
+    width: 100%;
+    height: 100%;
+   
+
+    
+    }
+
+    img{
+max-width: 100%;
+max-height: 100%;
+
+    }
