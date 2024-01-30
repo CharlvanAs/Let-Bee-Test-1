@@ -930,6 +930,8 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
+    
   }
 
   .copyright { margin-bottom: 0; }
@@ -975,45 +977,14 @@ header .container {
 
 
 
-  /**
-   * HERO
-   */
+ 
 
-  .hero { padding: 100px 0; }
+  .btn-group {
+     justify-content: center; 
+  display: flex;
+  align-items: center;
 
-  .hero .container {
-    min-height: 70vh;
-    max-width: 700px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    place-items: center;
-    gap: 25px;
   }
-
-  .hero-content {
-    text-align: left;
-    margin-bottom: 0;
-  }
-
-  .btn-group { justify-content: flex-start; }
-
-
-
-  /**
-   * NEW PRODUCT, ABOUT, EXPLORE PRODUCT, TOP SELLER, FOOTER
-   */
-
-  .new-product,
-  .about,
-  .explore-product,
-  .top-seller,
-  .footer-top { padding: 100px 0; }
-
-  .section-header-wrapper,
-  .about-title,
-  .top-seller-title { margin-bottom: 60px; }
-
-
 
   /**
    * GO TO TOP
@@ -1089,31 +1060,10 @@ header .container {
 
 
 
-  /**
-   * HERO
-   */
-   
-  .hero .container {
-    max-width: 950px;
-    gap: 20px;
-  }
-
-  .hero-title,
-  .hero-text { margin-bottom: 30px; }
-
-  .hero-text { --fs-7: 18px; }
-
-  .btn-group { gap: 20px; }
 
 
 
-  /**
-   * NEW PRODUCT, ABOUT, EXPLORE PRODUCT, TOP SELLER
-   */
 
-  .product-list,
-  .about-list,
-  .top-seller-list { grid-template-columns: repeat(3, 1fr); }
 
 
 
@@ -1239,40 +1189,9 @@ header .container {
 
 
 
-  /**
-   * HERO
-   */
-
-  .hero .container {
-    max-width: 1150px;
-    gap: 50px;
-  }
-
-  .hero-title,
-  .hero-text { margin-bottom: 35px; }
-
-
-  /**
-   * NEW PRODUCT, ABOUT, EXPLORE PRODUCT, TOP SELLER
-   */
-
-  .product-list,
-  .about-list,
-  .top-seller-list { grid-template-columns: repeat(4, 1fr); }
 
 
 
-  /**
-   * ABOUT
-   */
-
-  .about-card {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: space-between;
-    align-items: center;
-  }
 
 
 
@@ -1299,9 +1218,9 @@ height:100%;
   align-items: center;
   justify-content: center;
   border: 3px solid var(--white);
-  width:100%;
+  width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: scale-down;
   
   }
   #Heinrich-Photo3{
@@ -1340,4 +1259,25 @@ max-height: 100%;
 text-align: center;
 align-items: center;
 margin-left: 150px;
+    }
+
+    #beelogo-2 {
+      width:  15%;
+     height: 15%;
+     padding: none;
+     display: inline-flex;
+     padding-top: 0px;
+padding-bottom: 0px;
+    }
+
+    .footer-bottom{
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+
+    .footer-link-box{
+
+      padding-top:  0px;
+      padding-bottom: 0px;
     }
