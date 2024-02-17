@@ -59,7 +59,7 @@ box-sizing: border-box;
 .download-btn {
 background-color: var(--golden-puppy);
 color: white;
-padding: 20px 1px;
+padding: 20px 10px;
 margin: 10px;
 font-size: 20px;
 text-decoration: none;
@@ -68,7 +68,7 @@ display: flex;
 align-items: center;
 text-align: center;
 justify-content: center;
-margin-top: 500px;
+margin-top: 150px;
 margin-left: 100px;
 margin-right: 10px;
 
@@ -82,15 +82,23 @@ body {
 font-family: "Roboto", sans-serif;
 display: flex;
 background: var(--rich-black-fogra-39);
-min-width: 280px;
+min-width: 70vw;
 align-items: center;
 text-align: center;
 justify-content: center;
-max-height:280px;
+max-height:  870vh;
 
 }
 
-
+@media(max-width: 400px) {
+ 
+   .download-btn {
+    display: flex;
+      margin-left: 0;
+      flex-direction: column-reverse;
+      
+   }
+  }
 
 
 
